@@ -8,7 +8,8 @@ let items = [
   { name: "Keyboard", price: 120 },
 ];
 
-let num = [1,2,3,4,5];
+let num = [1,2,3,4,5,6,7,8,9,10];
 
-let includes = num.includes((2));
-console.log(includes);
+//slice: start position included but end position is NOT included
+let newItems = num.slice(3,7);
+console.log(newItems);
