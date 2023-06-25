@@ -8,7 +8,7 @@ let items = [
   { name: "Keyboard", price: 120 },
 ];
 
-let total = items.reduce((currentTotal, item) => {
-  return item.price + currentTotal;
-},0);
-console.log(total);
+let num = [1,2,3,4,5];
+
+let includes = num.includes((2));
+console.log(includes);
