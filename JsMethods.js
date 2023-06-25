@@ -8,7 +8,7 @@ let items = [
 	{name: 'Keyboard', price: 120},
 ];
 
-let newItems = items.some((item)=> {
-	return item.price >= 1000;
+let newItems = items.every((item)=> {
+	return item.price <= 500;
 });
 console.log(newItems);
