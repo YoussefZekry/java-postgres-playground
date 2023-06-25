@@ -8,7 +8,7 @@ let items = [
 	{name: 'Keyboard', price: 120},
 ];
 
-let newItems = items.find((item)=> {
-	return item.price === 10;
+let newItems = items.forEach((item)=> {
+	console.log( item.name);
 });
-console.log(newItems);
+// console.log(newItems);
