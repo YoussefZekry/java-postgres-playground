@@ -8,7 +8,7 @@ let items = [
 	{name: 'Keyboard', price: 120},
 ];
 
-let newItems = items.filter((item)=> {
-	return item.price <= 100
+let newItems = items.find((item)=> {
+	return item.price === 10;
 });
 console.log(newItems);
