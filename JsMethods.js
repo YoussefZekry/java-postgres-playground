@@ -10,6 +10,6 @@ let items = [
 
 let num = [1,2,3,4,5,6,7,8,9,10];
 
-//slice: start position included but end position is NOT included
-let newItems = num.slice(3,7);
+let newItems = num.splice(3,2,4,5);
 console.log(newItems);
+console.log(num);
