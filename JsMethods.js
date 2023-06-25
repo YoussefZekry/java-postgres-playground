@@ -8,7 +8,7 @@ let items = [
 	{name: 'Keyboard', price: 120},
 ];
 
-let newItems = items.map((item)=> {
+let newItems = items.filter((item)=> {
 	return item.price <= 100
 });
 console.log(newItems);
